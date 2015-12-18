@@ -1,9 +1,9 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/lightline_solarized_dark.vim
-" Author: taohe <taohex@gmail.com>
+" Author: taohe <taohex@gmail.com>, nalabjp <nalabjp@gmail.com>
 " License: MIT License
-" Updated: 2015/11/23
-" Version: 0.0.1
+" Updated: 2015/12/19
+" Version: 0.0.2
 " =============================================================================
 
 let s:cuicolors = {
@@ -64,10 +64,10 @@ let s:p.replace.left = [ [ s:base3, s:red ], [ s:base3, s:base01 ] ]
 let s:p.visual.left = [ [ s:base3, s:magenta ], [ s:base3, s:base01 ] ]
 let s:p.normal.middle = [ [ s:base1, s:base02 ] ]
 let s:p.inactive.middle = [ [ s:base0, s:base02 ] ]
-let s:p.tabline.left = [ [ s:base2, s:base01 ] ]
-let s:p.tabline.tabsel = [ s:p.normal.left[1] ]
-let s:p.tabline.middle = copy(s:p.normal.middle)
-let s:p.tabline.right = copy(s:p.normal.right)
+let s:p.tabline.left = [ [ s:base01, s:base02 ] ]
+let s:p.tabline.tabsel = copy(s:p.normal.middle)
+let s:p.tabline.middle = copy(s:p.tabline.left)
+let s:p.tabline.right = [ [ s:base01, s:base02 ], [ s:base1, s:base01 ] ]
 let s:p.normal.error = [ [ s:base2, s:red ] ]
 let s:p.normal.warning = [ [ s:base02, s:yellow ] ]
 

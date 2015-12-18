@@ -11,7 +11,7 @@ A solarized color theme for lightline.vim
 	[NeoBundle](https://github.com/Shougo/neobundle.vim) is recommended
 
 	```
-	NeoBundle 'taohex/lightline-solarized'
+	NeoBundle 'nalabjp/lightline-solarized'
 	```
 
 3.	Add this block to your init.vim (for neovim) or .vimrc (for vim)
