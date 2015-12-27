@@ -9,7 +9,7 @@
 let s:cuicolors = {
       \ 'base03': [ '8', '234', 'DarkGray' ],
       \ 'base02': [ '0', '235', 'Black' ],
-      \ 'base01': [ '10', '239', 'LightGreen' ],
+      \ 'base01': [ '10', '10', 'LightGreen' ],
       \ 'base00': [ '11', '240', 'LightYellow' ],
       \ 'base0':  [ '12', '244', 'LightBlue' ],
       \ 'base1':  [ '14', '245', 'LightCyan' ],
